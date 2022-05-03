@@ -48,3 +48,15 @@ button {
 button:hover {
     background-color: black ;
 }
+
+/* heading and paragraphs */
+h1 {
+    font-size: 45px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+p {
+    padding-bottom: 15px;
+}
+
