@@ -23,10 +23,11 @@ const words = new Map([
     ['kesha', 'brushes her teeth with a bottle of jack'],
     ['stormzy', 'stars in Top Boy - a UK Drama'],
     ['doja cat', 'has top hits such as woman, aint shit and kiss me more'],
-    ['harry styles', 'has top hits such as sign of the times and as it was'],
     ['mimi webb', 'has hits such as good without and house on fire'],
-    ['billie eilish', 'has hits such as ocean eyes, bad guy and my strange addiction'],
     ['lady gaga', 'calls her fans her monsters'],
+    ['tiesto', 'has hits such as the motto, savage and the business'],
+    ['ckay', 'rose to fame on tiktok with the song love nwantiti'],
+    ['coldplay', 'collabed with korean pop group bts on the track my universe'],
 ]);
 
 // turns words into strokes
