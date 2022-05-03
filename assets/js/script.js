@@ -113,3 +113,20 @@ const checkWord = function () {
     }
     return val;
   };
+
+  // event listeners
+
+  // letters event listener 
+const letterPress = function () {
+const letter = this.textContent.toLowerCase();
+if (select_word.includes(letter)) {
+    const indexes_list = getindexes(letter);
+    indexes_list.forEach((val, i) => {
+      answer.children[val].textContent = this.textContent;
+    });
+    if (checkWord()) showScores('won! Congratulations :D');
+  } else {
+    decreaseLife();
+  }
+  this.classList.add('disabled');
+};
