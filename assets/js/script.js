@@ -1,4 +1,4 @@
-'use strict' // restricts the use of undeclared variables
+/*jshint esversion: 6 */
 
 // divs and buttons from html 
 const gameLetter = document.querySelector('.letters');
