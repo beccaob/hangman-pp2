@@ -5,3 +5,14 @@
     padding: 0;
     font-family: 'EB Garamond', sans-serif;
 }
+
+/* background image */
+
+body {
+    background-image: url("../images/project-img/bgrnd-img.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #D9D9D9; /* background colour while image is loading */
+}
