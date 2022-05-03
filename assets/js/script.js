@@ -44,7 +44,7 @@ const init = function (state) { // state used to check if its run for the first 
     if (state === 'start') {
         // adding letters into html
         for (const i of 'abcdefghijklmnopqrstuvwxyz ') {
-          const html = `<button class="alpha">${i.toUpperCase()}</button>`;
+          const html = `<button class="alpha" aria-label="alphabet letter">${i.toUpperCase()}</button>`;
           gameLetter.insertAdjacentHTML('beforeend', html);
         }
       } else if (state === 'reset') { // state used to check if reset has been hit
