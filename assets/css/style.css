@@ -31,3 +31,20 @@ body {
 p, button {
     font-family: 'Quicksand', sans-serif;
 }
+
+/* buttons */
+button {
+    font-size: 20px;
+    font-weight: 400;
+    background-color: goldenrod;
+    color: white;
+    border-color: goldenrod;
+    border-radius: 1rem;
+    border-style: hidden;
+
+    padding: 8px;
+}
+
+button:hover {
+    background-color: black ;
+}
