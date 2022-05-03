@@ -11,7 +11,6 @@ const answer = document.querySelector('.answer');
 const scores = document.querySelector('.scores');
 const correctAns = document.querySelector('.correct');
 const correctWord = document.querySelector('.correct-word');
-const playAgain = document.querySelector('.reset-btn');
 
 // capture letters & lives
 let letters; 
