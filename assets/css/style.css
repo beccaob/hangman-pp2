@@ -83,6 +83,17 @@ p {
     background-color: darkgray;
   }
 
+.answer {
+    display: inline-flex;
+    padding: 55px;
+}
+
+.word {
+    margin-right: 1.5rem;
+    font-size: 25px;
+    max-width: 60%;
+}
+
 /* scores area */
 .scores {
     text-align: center;
