@@ -141,3 +141,8 @@ hintButton.addEventListener('click', function () {
     hint.classList.remove('hidden');
     hintText.textContent = words.get(select_word);
   });
+
+// reset button event listener 
+resetButton.addEventListener('click', function () {
+    init('reset');
+  });
