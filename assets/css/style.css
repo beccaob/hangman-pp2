@@ -136,9 +136,9 @@ p {
     }
   }
 
-  @media only screen and (max-width: 339px) {
-    .scores {
-        
+  @media only screen and (max-width: 420px) {
+    .answer, .word {
+        max-width: 90%;
     }
   }
 

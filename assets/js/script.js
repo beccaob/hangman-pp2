@@ -18,13 +18,10 @@ let lives;
 
 // game answers and hints
 const words = new Map([
-    ['ed sheeran', 'loves castles... and hills'],
     ['beyonce', 'also known as queen b'],
     ['kesha', 'brushes her teeth with a bottle of jack'],
     ['stormzy', 'stars in Top Boy - a UK Drama'],
     ['doja cat', 'has top hits such as woman, aint shit and kiss me more'],
-    ['mimi webb', 'has hits such as good without and house on fire'],
-    ['lady gaga', 'calls her fans her monsters'],
     ['tiesto', 'has hits such as the motto, savage and the business'],
     ['ckay', 'rose to fame on tiktok with the song love nwantiti'],
     ['coldplay', 'collabed with korean pop group bts on the track my universe'],
