@@ -85,13 +85,15 @@ p {
 
 .answer {
     display: inline-flex;
-    padding: 55px;
+    padding-top: 55px;
+    padding-bottom: 55px;
 }
 
 .word {
     margin-right: 1.5rem;
     font-size: 25px;
-    max-width: 60%;
+    max-width: 30vh;
+    display: inline-flex;
 }
 
 /* scores area */
@@ -132,4 +134,5 @@ p {
       background-image: none;
     }
   }
+
 
