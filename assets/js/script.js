@@ -102,3 +102,14 @@ const getindexes = function (letter) {
     //   console.log(indexes);
     return indexes;
   };
+
+  // check if word is complete 
+const checkWord = function () {
+    let val = true;
+    for (let i = 0; i < answer.children.length; i++) {
+      if (answer.children[i].textContent === '_') {
+        val = false;
+      }
+    }
+    return val;
+  };
