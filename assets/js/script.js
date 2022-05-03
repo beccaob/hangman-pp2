@@ -89,3 +89,16 @@ const decreaseLife = function () {
       showScores('lost :( Better luck next time!');
     }
   };
+
+// matching pressed letter to selected word 
+const getindexes = function (letter) {
+    let indexes = [];
+    [...select_word].forEach((val, i) => {
+      if (val === letter) {
+        const index = i;
+        indexes.push(index);
+      }
+    });
+    //   console.log(indexes);
+    return indexes;
+  };
