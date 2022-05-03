@@ -83,5 +83,12 @@ p {
     padding: 20px 10px;
     border-radius: 4rem;
 }
-    
+
+/* footer */
+.footer {
+    font-size: 10px;
+    text-align: center;
+    position: relative;
+    padding-top: 25px;
+}
 
