@@ -92,7 +92,7 @@ p {
 .word {
     margin-right: 1.5rem;
     font-size: 25px;
-    max-width: 30vh;
+    max-width: 50vw;
     display: inline-flex;
 }
 
@@ -105,7 +105,7 @@ p {
     transform: translate(-50%, -50%);
     background-color: black;
     color: white;
-    width: 20rem;
+    max-width: 20rem;
     padding: 20px 10px;
     border-radius: 4rem;
 }
@@ -135,4 +135,9 @@ p {
     }
   }
 
+  @media only screen and (max-width: 339px) {
+    .scores {
+        
+    }
+  }
 
