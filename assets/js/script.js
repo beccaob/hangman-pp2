@@ -37,3 +37,21 @@ const word_list = [...words.keys()];
 const getRandomWord = function (list) {
     return list[Math.floor(Math.random() * word_list.length)];
 };
+
+// random word selected upon reset and init
+let select_word;
+const init = function (state) { // state used to check if its run for the first time
+    answer.innerHTML = '';
+    if (state === 'start') {
+        // adding letters into html
+        for (const i of 'abcdefghijklmnopqrstuvwxyz ') {
+          const html = `<button class="alpha">${i.toUpperCase()}</button>`;
+          gameLetter.insertAdjacentHTML('beforeend', html);
+        }
+      } else if (state === 'reset') { // state used to check if reset has been hit
+        letters.forEach(btn => {
+          btn.classList.remove('disabled');
+          hint.classList.add('hidden');
+          scores.classList.add('hidden');
+        });
+      }
