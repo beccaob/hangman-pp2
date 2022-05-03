@@ -70,6 +70,10 @@ p {
     padding-bottom: 15px;
 }
 
+.choose {
+    padding-bottom: 25px;
+}
+
 /* scores area */
 .scores {
     text-align: center;
@@ -90,5 +94,14 @@ p {
     text-align: center;
     position: relative;
     padding-top: 25px;
+}
+
+.fine-print {
+    font-size: 10px;
+}
+
+/* hints */
+.hint {
+    padding-top: 15px;
 }
 
