@@ -55,3 +55,27 @@ const init = function (state) { // state used to check if its run for the first 
           scores.classList.add('hidden');
         });
       }
+
+select_word = getRandomWord(word_list);
+lives = 8;
+
+// capturing letters 
+letters = document.querySelectorAll('.alpha');
+liveSpan.textContent = lives;
+
+// selecting word 
+for (let i = 0; i < select_word.length; i++) {
+    const html = `<p class="word">_</p>`;
+    answer.insertAdjacentHTML('beforeend', html);
+  }
+};
+
+// initalising game 
+init('start');
+
+// show score card 
+const showScores = function (msg) {
+    scores.classList.remove('hidden');
+    correctWord.textContent = select_word;
+    correctAns.textContent = `You ${msg}`;
+  };
