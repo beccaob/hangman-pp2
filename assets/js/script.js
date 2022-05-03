@@ -79,3 +79,13 @@ const showScores = function (msg) {
     correctWord.textContent = select_word;
     correctAns.textContent = `You ${msg}`;
   };
+
+  // decrease life if incorrect letter chosen
+const decreaseLife = function () {
+    lives--;
+    //   console.log(lives);
+    liveSpan.textContent = lives;
+    if (lives === 0) {
+      showScores('lost :( Better luck next time!');
+    }
+  };
