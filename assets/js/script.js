@@ -135,3 +135,9 @@ if (select_word.includes(letter)) {
 letters.forEach(btn => {
     btn.addEventListener('click', letterPress);
   });
+
+// hint button event listener 
+hintButton.addEventListener('click', function () {
+    hint.classList.remove('hidden');
+    hintText.textContent = words.get(select_word);
+  });
