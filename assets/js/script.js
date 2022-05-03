@@ -24,9 +24,16 @@ const words = new Map([
     ['kesha', 'brushes her teeth with a bottle of jack'],
     ['stormzy', 'stars in Top Boy - a UK Drama'],
     ['doja cat', 'has top hits such as woman, aint shit and kiss me more'],
-    ['ed sheeran', 'loves castles... and hills'],
-    ['ed sheeran', 'loves castles... and hills'],
-    ['ed sheeran', 'loves castles... and hills'],
-    ['ed sheeran', 'loves castles... and hills'],
-    ['ed sheeran', 'loves castles... and hills'],
-])
+    ['harry styles', 'has top hits such as sign of the times and as it was'],
+    ['mimi webb', 'has hits such as good without and house on fire'],
+    ['billie eilish', 'has hits such as ocean eyes, bad guy and my strange addiction'],
+    ['lady gaga', 'calls her fans her monsters'],
+]);
+
+// turns words into strokes
+const word_list = [...words.keys()];
+
+// get random word from word_list
+const getRandomWord = function (list) {
+    return list[Math.floor(Math.random() * word_list.length)];
+};

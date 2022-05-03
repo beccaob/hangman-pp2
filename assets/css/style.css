@@ -74,6 +74,10 @@ p {
     padding-bottom: 25px;
 }
 
+.hidden {
+    display: none;
+}
+
 /* scores area */
 .scores {
     text-align: center;
