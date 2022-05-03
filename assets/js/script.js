@@ -130,3 +130,8 @@ if (select_word.includes(letter)) {
   }
   this.classList.add('disabled');
 };
+
+// button press event listener 
+letters.forEach(btn => {
+    btn.addEventListener('click', letterPress);
+  });
