@@ -78,6 +78,11 @@ p {
     display: none;
 }
 
+.disabled {
+    pointer-events: none;
+    background-color: darkgray;
+  }
+
 /* scores area */
 .scores {
     text-align: center;
