@@ -49,6 +49,16 @@ button:hover {
     background-color: black ;
 }
 
+.reset {
+    color: white;
+    background-color: black;
+}
+
+.reset:hover {
+    background-color: white;
+    color: black;
+}
+
 /* heading and paragraphs */
 h1 {
     font-size: 45px;
