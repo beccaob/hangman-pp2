@@ -5,7 +5,7 @@
 ![website mockup](assets/images/readme-img/mockup.png)
 
 ## Introduction & Table of Contents
-My hangman game is based on musical artists from 2010 - 2022. The user must guess the artist in 8 lives or less. The aim of this project was to create an interactive front-end site which responds to user actions. I had started by creating a quiz but found that hangman would be a better option for me. 
+My hangman game is based on musical artists from 2010 - 2022. The user must guess the artist in 8 lives or less. The aim of this project was to create an interactive front-end site which responds to user actions. 
 
 ### Table of contents
 
@@ -62,3 +62,82 @@ I used wireframes to give myself a general idea of what I wanted the site to loo
  This button will allow the user to restart the game at any time. The background colour will change to black and the text to white if this button is hovered over so the user knows they can click it. 
  ![restart yellow](assets/images/readme-img/restart-yellow.png)
  ![restart black](assets/images/readme-img/restart-black.png)
+ - ### Game Won 
+ If the user wins the game, they will be shown a congradulations message with the correct answer shown underneath. They will then be told how to restart the game. 
+ 
+
+ ## Technologies used
+ ### Languages
+ 1. HTML
+ 2. CSS
+ 3. JavaScript
+
+ ### Programs
+1. Balsamiq 
+Balsamiq was used to create my wireframes. 
+2. Git 
+Used for version control, commits and pushing to Github. 
+3. Github
+Used for storing my repository, files and images pushed from gitpod. 
+4. Gitpod
+IDE used. 
+5. Chrome Developer Tools 
+Used for troubleshooting when needed. Also used to check responsiveness. 
+6. Google Fonts
+Used for site fonts. 
+7. Font Awesome 
+used for icons. 
+8. Canva Pro
+Used to create the background image. 
+9. Favicon.io 
+Favicon files were created using https://favicon.io
+
+## Testing 
+The W3C Markup Validator, W3C CSS Validator Services and jshint.com were used to validate my project. 
+![css](assets/images/readme-img/css-validate.png)
+![html](assets/images/readme-img/html-validate.png)
+
+JS Hint stated that i have one undefined variable. This is from the below lines of code: 
+![undefined](assets/images/readme-img/undefined.png)
+
+### Lighthouse 
+![lighthouse desktop](assets/images/readme-img/lighthouse-desktop.jpg)
+![lighthouse mobile](assets/images/readme-img/lighthouse-mobile.jpg)
+
+### Wave 
+Testing was targeted towards ensuring the following criteria was met: 
+* Color contrasts meet the minimum requirements specified in WCAG Contrast Guidelines. 
+* All content is contained within landmarks to allow the user to navigate by page region.
+* Heading levels are not skipped or missed. This will ensure the importance of content is conveyed to the user.  
+* HTML page language has been set. 
+![wave](assets/images/readme-img/wave-test.jpg)
+
+### Devices 
+All pages were tested to ensure responsiveness on screen sizes from 320px upwards. Each page was tested on Chrome, Edge and Firefox. 
+
+Steps to test: 
+1. Open the browser and navigate to [Hangman Game](https://beccaob.github.io/hangman-pp2/index.html)
+2. Open the developer tools ( right click & inspect )
+3. Set to responsive & decrease width to 320px
+4. Set the zoom to 50%
+5. Click & drag window to max width
+
+Expected Outcome: 
+* Responsive on all screen sizes, no pixelated/stretched images
+* No horizontal scroll bar
+* No element overflow
+
+Actual Outcome: 
+
+The website behaved as expected across all tests. 
+
+The site was also tested on the following devices and no issues were detected: 
+
+* Apple IPhone 13 
+* One Plus 7T 
+* Samsung A32
+* Asus 15.6" M509DA-EJ034T   
+* HP Pro Desk 400 G6 SFF
+
+
+

@@ -140,9 +140,8 @@ p {
     padding-bottom: 10px;
 }
 
-a {
+.content {
     text-align: center;
-    padding-bottom: 10px;
 }
 
 /* media queries */
