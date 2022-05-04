@@ -128,6 +128,23 @@ p {
     padding-top: 15px;
 }
 
+/* 404 page */
+
+.four-error {
+    text-align: center;
+    padding: 15px;
+}
+
+.four-para {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.four-link {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
 /* media queries */
 @media only screen and (max-width: 1147px) {
     body {
