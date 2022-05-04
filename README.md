@@ -4,10 +4,8 @@
 ## Final Design 
 ![website mockup](assets/images/readme-img/mockup.png)
 
-## Introduction & Table of Contents
+## Introduction
 My hangman game is based on musical artists from 2010 - 2022. The user must guess the artist in 8 lives or less. The aim of this project was to create an interactive front-end site which responds to user actions. 
-
-### Table of contents
 
 ## User Expierence (UX)
 - ### User Stories
