@@ -130,18 +130,9 @@ p {
 
 /* 404 page */
 
-.four-error {
+.four-content {
     text-align: center;
     padding: 15px;
-}
-
-.four-para {
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-.content {
-    text-align: center;
 }
 
 /* media queries */
