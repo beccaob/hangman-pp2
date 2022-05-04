@@ -38,33 +38,53 @@ My hangman game is based on musical artists from 2010 - 2022. The user must gues
 
 ### Wireframes
 I used wireframes to give myself a general idea of what I wanted the site to look like.
+
 [home-page](assets/images/readme-img/home-page-wf.png)
+
 [404-error](assets/images/readme-img/404-wf.png)
 
 ## Features
  - ### Heading
  Contains title of the game. 
+
  ![heading](assets/images/readme-img/heading.png)
+
  - ### Description
  Contains information on what the game is about and how to play.
+
  ![description](assets/images/readme-img/description.png)
+
  - ### Alphabet
  Contains the alphabet needed to play the game. The letters are changed from yellow to grey when the user selects them. This allows the user to keep track of what letters they have previosuly guessed. The letters are reset to the default colour when the user restarts the game. There is a little circle at the end of the alphabet which is a space. I have added an instruction for the user to click this circle before they begin the game as a tempory fix. This is an unfixed bug which is mentioned in the unfixed bug section. 
+
  ![alphabet](assets/images/readme-img/alphabet.png)
+
  - ### Lives Counter 
  This allows the user to see how many lives they have left. If they choose an incorrect letter, the lives will decrease by 1. If the lives counter reaches zero - the user is informed that they have lost the game. 
+
  ![lives](assets/images/readme-img/lives.png)
+
  - ### Hint Button 
  This button will display a hint for the user to find the correct answer. The hint will remain visable until the user has finished the game. When the game is reset - the hint will be hidden until the user requests it again. The background colour will change to black and the text to white if this button is hovered over so the user knows they can click it. 
+
  ![lives yellow](assets/images/readme-img/hint-yellow.png)
  ![lives hover black](assets/images/readme-img/hint-black.png)
+
  - ### Restart
  This button will allow the user to restart the game at any time. The background colour will change to black and the text to white if this button is hovered over so the user knows they can click it. 
+
  ![restart yellow](assets/images/readme-img/restart-yellow.png)
  ![restart black](assets/images/readme-img/restart-black.png)
+
  - ### Game Won 
  If the user wins the game, they will be shown a congradulations message with the correct answer shown underneath. They will then be told how to restart the game. 
- 
+
+ ![won](assets/images/readme-img/won.png)
+
+ - ### Game Lost 
+ If the user loses the game, they will be shown an apology message with the correct answer shown underneath. They will then be told how to restart the game. 
+
+ ![lost](assets/images/readme-img/lost.png)
 
  ## Technologies used
  ### Languages
@@ -138,6 +158,71 @@ The site was also tested on the following devices and no issues were detected:
 * Samsung A32
 * Asus 15.6" M509DA-EJ034T   
 * HP Pro Desk 400 G6 SFF
+
+## Unfixed Bugs 
+As mentioned eariler, below are my unfixed bugs. 
+1. There is a little circle at the end of the alphabet which is a space. I have added an instruction for the user to click this circle before they begin the game as a tempory fix. This is an unfixed bug which I did not have time to troubleshoot. 
+
+## Future Features 
+1. Add username feature
+2. Add levels
+3. Add hangman graphic
+4. add levels leaderboard
+
+# **Deployment**
+
+The website was created using Visual Studio Code editor and pushed to the github remote repository 'the-rhythm-lounge-pp1'
+The following git commands were used throughout development to push code to the remote repository: 
+
+* git add . 
+    * This command was used to add a change in the working directory to the staging area. 
+
+* git commit -m "commit message"
+    * This command was used to commit changes to the local repo queue ready to be pushed to the remote repo. 
+
+* git push
+    * This command was used to push all committed code to the remote repo on github. 
+
+### Deployment to Github Pages
+
+The site was deployed to Github Pages. Steps used are as follows: 
+1. In the repo, open the settings tab
+2. In left menu, click 'Pages'
+3. From the source section, select 'Branch:main' from the dropdown menu
+4. Click 'Save'
+5. A live link will be displayed in green banner when published successfully
+
+### Clone Repo Code Locally 
+
+Navigate to the github repo you want to clone for local use
+
+1. Click the 'Code' drop down menu
+2. Click on 'HTTPS' 
+3. Copy the repo link to the keyboard 
+4. Open preferred integrated development environment (IDE) 
+
+(Git must be installed for the final step) 
+
+5. Type git clone copied-git-url into the IDE terminal
+
+The project will now be cloned on your local machine.
+
+### Forking the repository
+1. Log into the Github repository.
+2. Underneath your avatar is a button labelled **Fork**, click this.
+3. You should have your own copy now.
+
+## Credits 
+1. Code Institute course material
+2. JS Cheatsheet [js cheatsheet](https://htmlcheatsheet.com/js/)
+
+### Acknowledgements
+1. Slack Community for continued support. 
+2. Stryker programming team for their tips, tricks and support throughout this project. 
+3. My family for their patience, support and understanding. 
+4. Myself for perserviering through several project idea changes, long days, nights and several instances of imposter syndrome. 
+
+
 
 
 
