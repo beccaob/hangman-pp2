@@ -40,7 +40,7 @@ let select_word;
 const init = function (state) { // state used to check if its run for the first time
     answer.innerHTML = '';
     if (state === 'start') {
-        // adding letters into html
+        // adding letters into html - bug here, had to include space 
         for (const i of 'abcdefghijklmnopqrstuvwxyz ') {
           const html = `<button class="alpha" aria-label="alphabet letter">${i.toUpperCase()}</button>`;
           gameLetter.insertAdjacentHTML('beforeend', html);
@@ -67,14 +67,14 @@ for (let i = 0; i < select_word.length; i++) {
   }
 };
 
-// initalising game 
+// initalising game after all above has loaded correctly
 init('start');
 
-// show score card 
+// show score card when user finishes the game
 const showScores = function (msg) {
-    scores.classList.remove('hidden');
+    scores.classList.remove('hidden'); // 
     correctWord.textContent = select_word;
-    correctAns.textContent = `You ${msg}`;
+    correctAns.textContent = `You ${msg}`; // shows message if user wins/loses
   };
 
   // decrease life if incorrect letter chosen
@@ -83,11 +83,11 @@ const decreaseLife = function () {
     //   console.log(lives);
     liveSpan.textContent = lives;
     if (lives === 0) {
-      showScores('lost :( Better luck next time!');
+      showScores('lost :( Better luck next time!'); // message for showscores function above
     }
   };
 
-// matching pressed letter to selected word 
+// matching pressed letter to selected word p[;]
 const getindexes = function (letter) {
     let indexes = [];
     [...select_word].forEach((val, i) => {

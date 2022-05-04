@@ -213,6 +213,7 @@ The project will now be cloned on your local machine.
 ## Credits 
 1. Code Institute course material
 2. JS Cheatsheet [js cheatsheet](https://htmlcheatsheet.com/js/)
+3. Canva Pro for BG Image
 
 ### Acknowledgements
 1. Slack Community for continued support. 
